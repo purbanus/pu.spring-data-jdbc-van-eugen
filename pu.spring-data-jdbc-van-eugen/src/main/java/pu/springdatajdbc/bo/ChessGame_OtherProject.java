@@ -5,7 +5,10 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 
-public class ChessGame
+/**
+ * I copied this from another (forgotten) Eugen project
+ */
+public class ChessGame_OtherProject
 {
 
 @Id
