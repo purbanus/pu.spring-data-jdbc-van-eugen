@@ -8,7 +8,7 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>pu.pornaboot</groupId>
+	<groupId>pu.lessen</groupId>
 	<artifactId>pu.spring-data-jdbc-van-eugen</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pu.spring-data-jdbc-van-eugen</name>
