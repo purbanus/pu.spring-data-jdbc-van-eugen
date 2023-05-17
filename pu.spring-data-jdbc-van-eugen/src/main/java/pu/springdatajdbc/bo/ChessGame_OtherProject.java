@@ -14,10 +14,13 @@ public class ChessGame_OtherProject
 @Id
 private Long id;
 
+@SuppressWarnings( "unused" )
 private String playerWhite;
 
+@SuppressWarnings( "unused" )
 private String playerBlack;
 
+@SuppressWarnings( "unused" )
 private List<ChessMove> moves = new ArrayList<>();
 
 // getter and setter methods
