@@ -5,6 +5,11 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
 /**
  * I copied this from another (forgotten) Eugen project
  */
@@ -14,14 +19,15 @@ public class ChessGame_OtherProject
 @Id
 private Long id;
 
-@SuppressWarnings( "unused" )
 private String playerWhite;
-
-@SuppressWarnings( "unused" )
 private String playerBlack;
-
-@SuppressWarnings( "unused" )
-private List<ChessMove> moves = new ArrayList<>();
+private final List<ChessMove> moves = new ArrayList<>();
 
 // getter and setter methods
 }
+
+//private LocalDateTime playedOn;
+//private AggregateReference<ChessPlayer, Long> playerWhite;
+//private AggregateReference<ChessPlayer, Long> playerBlack;
+
+
